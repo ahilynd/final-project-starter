@@ -3,6 +3,14 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App(): JSX.Element {
+
+    // Takes array of counter setters and sets each to 0
+    function zeroCounter(setCounters: {(setVal: number): void}[] ): void {
+        for (let i = 0; i < setCounters.length; i++) {
+            setCounters[i](0);
+        }
+    }
+
     return (
         <div className="App">
             <header className="App-header">
@@ -19,6 +27,9 @@ function App(): JSX.Element {
           Learn React
                 </a>
             </header>
+            {/* <button onClick={zeroCounter}>
+                Zero counters
+            </button> */}
         </div>
     );
 }
