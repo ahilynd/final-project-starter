@@ -5,7 +5,7 @@ function App(): JSX.Element {
         <div className="App">
             <header>
                 <h1>
-                    Welcome!
+                    Welcome To Our Page!
                 </h1>
             </header>
         </div>
