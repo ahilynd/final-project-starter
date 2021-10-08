@@ -1,8 +1,13 @@
 import React from "react";
+<<<<<<< HEAD:src/index.tsx
 //import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+=======
+import ReactDOM from "react-dom";
+import App from "./index.css";
+>>>>>>> b107739f39cae58260064a70fe76a5213773f254:src/index.js
 
 /*ReactDOM.render(
     <React.StrictMode>
